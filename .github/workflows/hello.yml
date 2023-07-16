@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: Hello World step
         run: echo "Hello World!"
+
+      - name: Print Date step
+        run: date
+        
+      - name: Print Directory Content step
+        run: ls -l
